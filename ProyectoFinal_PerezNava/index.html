@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <h1>Tienda en Línea</h1>
+        <nav>
+            <button id="btnRopa">Ropa</button>
+            <button id="btnSuplementos">Suplementos</button>
+            <button id="btnAccesorios">Accesorios</button>
+            <button id="btnCarrito">Carrito</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="productos"></section>
+        <section id="carrito"></section>
+    
+    </main>
+
+    <footer>
+        <button id="btnComprar">Confirmar Compra</button>
+        <div id="mensaje"></div>
+    </footer>
+
+    <form id="formCantidad" style="display:none;">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" required>
+        <button type="submit">Agregar al Carrito</button>
+    </form>
+
+    <div id="confirmacionCompra" style="display:none;">
+        <p id="mensajeConfirmacion"></p>
+        <button id="btnConfirmarCompra">Sí, comprar</button>
+        <button id="btnCancelarCompra">Cancelar</button>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff67;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #005bb5;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 40px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.producto button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+#carrito {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carrito-item {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer button {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #e0a800;
+}
+
+#mensaje {
+    margin-top: 10px;
+}
+
+.success {
+    color: #28a745;
+}
+
+.error {
+    color: #dc3545;
+}
+
+.info {
+    color: #17a2b8;
+}
+
+#formCantidad {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#formCantidad label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#formCantidad input[type="number"] {
+    padding: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formCantidad button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+#formCantidad button:hover {
+    background-color: #005bb5;
+}
+
+/* Styles for Confirmation Dialog */
+#confirmacionCompra {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    z-index: 1000;
+}
+
+#confirmacionCompra p {
+    margin: 0 0 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#confirmacionCompra button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+#confirmacionCompra button:hover {
+    background-color: #005bb5;
+}
+
+#confirmacionCompra #btnCancelarCompra {
+    background-color: #dc3545;
+}
+
+#confirmacionCompra #btnCancelarCompra:hover {
+    background-color: #c82333;
+}
+
+#confirmacionCompra #btnConfirmarCompra {
+    background-color: #28a745;
+}
+
+#confirmacionCompra #btnConfirmarCompra:hover {
+    background-color: #218838;
+}

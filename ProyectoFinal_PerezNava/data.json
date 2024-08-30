@@ -1,0 +1,19 @@
+[
+    { "id": 1, "categoria": "Ropa", "tipo": "Playera", "nombre": "Compresión", "precio": 200 },
+    { "id": 2, "categoria": "Ropa", "tipo": "Playera", "nombre": "Oversize", "precio": 250 },
+    { "id": 3, "categoria": "Ropa", "tipo": "Playera", "nombre": "Tirantes", "precio": 150 },
+    { "id": 4, "categoria": "Ropa", "tipo": "Playera", "nombre": "Top", "precio": 180 },
+    { "id": 5, "categoria": "Ropa", "tipo": "Pants", "nombre": "Jogger", "precio": 250 },
+    { "id": 6, "categoria": "Ropa", "tipo": "Pants", "nombre": "Leggins", "precio": 200 },
+    { "id": 7, "categoria": "Ropa", "tipo": "Pants", "nombre": "Shorts", "precio": 180 },
+    { "id": 8, "categoria": "Suplementos", "tipo": "Proteina", "nombre": "Proteina 60 servicios", "precio": 750 },
+    { "id": 9, "categoria": "Suplementos", "tipo": "Proteina", "nombre": "Proteina 30 servicios", "precio": 450 },
+    { "id": 10, "categoria": "Suplementos", "tipo": "Creatina", "nombre": "Creatina 30 servicios", "precio": 200 },
+    { "id": 11, "categoria": "Suplementos", "tipo": "Creatina", "nombre": "Creatina 60 servicios", "precio": 380 },
+    { "id": 12, "categoria": "Suplementos", "tipo": "Creatina", "nombre": "Creatina 90 servicios", "precio": 500 },
+    { "id": 13, "categoria": "Accesorios", "tipo": "Straps", "nombre": "Straps", "precio": 150 },
+    { "id": 14, "categoria": "Accesorios", "tipo": "Rodilleras", "nombre": "Rodilleras", "precio": 350 },
+    { "id": 15, "categoria": "Accesorios", "tipo": "Guantes", "nombre": "Guantes S", "precio": 150 },
+    { "id": 16, "categoria": "Accesorios", "tipo": "Guantes", "nombre": "Guantes M", "precio": 160 },
+    { "id": 17, "categoria": "Accesorios", "tipo": "Guantes", "nombre": "Guantes L", "precio": 170 }
+]
